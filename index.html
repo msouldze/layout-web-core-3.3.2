@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo-box">
+        <button type="button" class="header__burger"></button>
+        <div class="header__logo">
+          <img src="./src/img/logo-icon.svg" alt="" class="header__logo-icon" />
+        </div>
+      </div>
+      <ul class="header__upper-menu button">
+        <li class="button__item visially-hidden">
+          <a href="tel:" class="button__link call-icon"></a>
+        </li>
+        <li class="button__item visially-hidden">
+          <a href="sms:" class="button__link message-icon"></a>
+        </li>
+        <li class="button__item visially-hidden">
+          <a href="#" class="button__link profile-icon"></a>
+        </li>
+        <li class="button__item lg-only">
+          <a href="#" class="button__link inquiry-icon">
+            Оставить заявку
+          </a>
+        </li>
+        <li class="button__item lg-only">
+          <a href="#" class="button__link status-icon">
+            Статус ремонта
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <main class="o-body">
+      <h1 class="o-body__title">Услуги и сервисы</h1>
+      <nav class="o-body__navbar">
+        <ul class="o-body__sm-list visially-hidden">
+          <li class="o-body__item item_is-active">Ремонтируемые устройства</li>
+          <li class="o-body__item">Дополнительные услуги</li>
+          <li class="o-body__item">Цены на услуги</li>
+          <li class="o-body__item">Специальные цены</li>
+          <li class="o-body__item">Отзывы</li>
+        </ul>
+        <ul class="o-body__lg-list">
+          <li class="o-body__item item_is-active">Ремонтируемые бренды</li>
+          <li class="o-body__item">Ремонтируемые устройства</li>
+          <li class="o-body__item">Цены на услуги</li>
+          <li class="o-body__item">Адреса сервисных центров</li>
+          <li class="o-body__item">Специальные цены</li>
+          <li class="o-body__item">Отзывы</li>
+        </ul>
+      </nav>
+      <div class="o-body__main main">
+        <div class="main__about-us">
+          <p class="main__about-us-part1">
+            Мы являемся авторизованным сервисным центром по ремонту техники
+            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+            официальной гарантией производителя.
+          </p>
+          <p class="main__about-us-part2">
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного
+            партнера, что подтверждает большое количество постоянных клиентов.
+            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+            очередь, советуют нас родным и близким.
+          </p>
+        </div>
+        <div class="main__btn">
+          <a href="#" class="main__read-more-btn">Читать далее</a>
+        </div>
+      </div>
+      <div class="main__img">
+        <img src="./src/img/download.png" alt="Company Logo Picture" />
+      </div>
+    </main>
+  </body>
+</html>
